@@ -1,4 +1,28 @@
 
+## Project Setup & Git Workflow
+
+This repository is a personal fork of the [Angular University Course](https://github.com/angular-university/angular-course). 
+
+To maintain a clean workflow while practicing, I have configured two git remotes:
+- `origin`: My personal repository where I push my progress and custom experiments.
+- `upstream`: The original course repository, used to fetch new branches and updates from the instructor.
+
+### How to fetch new course branches:
+To stay up to date with the instructor's branches (e.g., `2-directives`), I use:
+```bash
+git fetch upstream
+git checkout -b 2-directives upstream/2-directives
+
+
+
+
+
+
+
+
+
+
+
 ##  Angular Core Deep Dive (Video Course)
 
 This repository contains the code of the [Angular Core Deep Dive](https://angular-university.io/course/angular-course).
