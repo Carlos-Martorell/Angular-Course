@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {COURSES} from '../db-data';
+import { Course } from './model/course';
 
 @Component({
     selector: 'app-root',
@@ -10,5 +11,9 @@ import {COURSES} from '../db-data';
 export class AppComponent {
 
 
-
+    courses = COURSES
+    
+  
+    onCourseSelected(course:Course) {
+console.log('soy el card del app',course);    }
 }

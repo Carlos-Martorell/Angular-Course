@@ -46,6 +46,9 @@ course-card.is-last {
   border-bottom: 2px solid grey;
   padding-top: 20px;
 }
+course-card.beginner {
+background-color: #de1e19 ;
+}
 
 course-card.is-even {
   background: lightgray;
